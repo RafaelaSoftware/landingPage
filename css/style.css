@@ -567,7 +567,7 @@ a {
 .screen {
   position: relative;
   background: #4d4d4d;
-  border-radius: 15px;
+  margin-top:20px;
 }
 
 .screen:after {
@@ -578,7 +578,6 @@ a {
   left: 20px;
   right: 20px;
   bottom: 0;
-  border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
   z-index: -1;
 }
@@ -595,6 +594,7 @@ a {
 .screen-body-item.left {
   display: flexbox;
   flex-direction: column;
+  text-align: center;
 }
 
 .app-title {
@@ -794,3 +794,61 @@ a {
     width:60%
 }
 
+@media screen and (max-width: 670px){
+  .site-logo img{
+    height: 100px;
+  }
+  .tit{
+    font-size: 30px;
+  }
+  #servicios{
+    margin: 0px;
+  }
+  #servicios h3{
+    font-size: 20px;
+  }
+  #serv1{
+    padding: 20px;
+  }
+  .ventajas{
+    width: 85%;
+  }
+  .bene{
+    width: 85%;
+  }
+  #serv2 .lis{
+    width: 85%;
+  }
+  .screen-body-item{
+    padding:20px;
+  }
+  .img_p{
+
+  }
+  .izq{
+    width: 100%;
+    display:block;
+    margin-top:0px;
+    padding-top: 0px;
+  }
+  .der{
+    width: 88%;
+    display:block;
+    margin:0px;
+  }
+}
+
+@media screen and (max-width: 475px){
+  .site-logo img{
+    height: 80px;
+  }
+  #servicios h3{
+    font-size: 18px;
+  }
+  #serv1{
+    padding: 15px;
+  }
+  #serv3 img{
+    height: 100px;
+  }
+}

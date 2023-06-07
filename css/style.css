@@ -404,8 +404,11 @@ a {
     font-weight:bold;
     font-size:13px;
     padding:0px 5px;
+    vertical-align: center;
 }
-
+.ventajas span{
+    padding: 30px 12px 0px 12px;
+}
 .enlinea {
     display:flexbox;
     text-align:center;
@@ -458,56 +461,6 @@ a {
     padding-right:3px;
 }
 
-#carac {
-    display:flexbox;
-    width:100%;
-    text-align:center;
-   
-}
-.circulo {
-    width: 200px;
-    height: 200px;
-    border-radius:100%;
-    background-color:#4d4d4d;
-    display:inline-block;
-    margin:10px;
-}
-
-.circulo .oculto {
-    display:none;
-
-}
-.circulo .oculto h5 {
-    font-size:50px;
-}
-@keyframes rotate {from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}}
-@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);}}
-.circulo:hover{
-    -webkit-animation: 2s rotate linear infinite;
-    animation: 2s rotate linear;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    position:static;
-    border-radius:3px;
-    width:200px;
-    height:200px;
-    border:rgba(0, 0, 0, 0.25) solid 2px;
-    background-color:#F27127;
-    
-}
-.circulo {
-    -webkit-animation-direction: reverse;
-     animation-direction: reverse;
-}
-.circulo:hover .oculto {
-    display:block;
-}
-.circulo:hover .oculto p {
-    font-size:12px;
-    padding:0px 20px;
-}
 
 .boton {
     font-family:'candara';
@@ -831,6 +784,7 @@ div.reset {
   }
   .ventajas{
     width: 85%;
+    height:110px;
   }
   .bene{
     width: 85%;

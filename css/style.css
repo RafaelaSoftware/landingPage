@@ -143,11 +143,7 @@ a {
             width: 0;
             position: absolute;
             pointer-events: none; }
-          .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
-            border-color: rgba(136, 183, 213, 0);
-            border-bottom-color: #fff;
-            border-width: 10px;
-            margin-left: -10px; }
+         
         .site-navbar .site-navigation .site-menu .has-children .dropdown a {
           font-size: 14px;
           text-transform: none;

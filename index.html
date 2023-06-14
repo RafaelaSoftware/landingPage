@@ -25,7 +25,7 @@
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 icon-remove-sign js-menu-toggle"></span>
+          <!--<span class="icon-close2 icon-remove-sign js-menu-toggle"></span>-->
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
@@ -360,22 +360,26 @@
                   <div class="app-contact">info@rafaelasoftware.com.ar | +54 9 3492 695991</div>
                 </div>
                 <div class="screen-body-item">
-                  <form action="mailto:lucia.medina0709@gmail.com" method="post" enctype="text/plain">
+                  <form action="/php/send.php" method="post" enctype="text/plain" name="frmContacto">
                    <div class="app-form">
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="NOMBRE" aria-required="true" type="text">
+                        <label for="Nombre">Nombre: *</label>
+                      <input class="app-form-control" placeholder="Inserte su nombre" aria-required="true" type="text" name="nombre">
                     </div>
                     <div class="app-form-group">
-                      <input class="app-form-control"  placeholder="EMAIL" aria-required="true" type="email">
+                        <label for="E-mail">E-mail: *</label>
+                      <input class="app-form-control"  placeholder="Inserte su correo electrónico" aria-required="true" type="email" name="email">
                     </div>
                     <div class="app-form-group">
-                      <input class="app-form-control" placeholder="CELULAR"  >
+                        <label for="Celular">Celular: *</label>
+                      <input class="app-form-control" placeholder="Inserte su celular"  name="cel">
                     </div>
                     <div class="app-form-group message">
-                      <input class="app-form-control" placeholder="CONSULTA"  type="text">
+                        <label for="Consulta">Consulta: </label>
+                      <input class="app-form-control" placeholder="Inserte su consulta"  type="text" name="consulta">
                     </div>
                     <div class="app-form-group buttons">
-                      <button class="app-form-button">CANCELAR</button>
+                      <button class="app-form-button" type="reset">CANCELAR</button>
                       <button class="app-form-button" type="submit">ENVIAR</button>
                     </div>
                   </div>

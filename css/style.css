@@ -657,18 +657,21 @@ a {
     opacity:0.5;
     filter: grayscale(100%);
     transition: .5s all ease;
-    width:180px;
-    height:120px;
+    width: 340px;
+    height:200px;
     text-align:center;
     vertical-align:central;
     margin-top:20px;
 }
 #exito .empresa img {
-    width:100px;
+    width: 300px;
 }
 #exito .empresa:hover {
     opacity:1;
     filter: grayscale(0%);
+}
+.esp{
+    background-color: grey;
 }
 
 .emp h5 {

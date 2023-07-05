@@ -72,17 +72,17 @@
 
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                     <li class="active"><a href="#nosotros" class="nav-link">Inicio</a></li>
-                      <li><a href="#nosotros" class="nav-link">Sobre Nosotros</a></li>
+                      <li><a href="#BtnNos" class="nav-link">Sobre Nosotros</a></li>
                       <li class="has-children">
                       <a href="#servicios" class="nav-link">Servicios <i class="icon-sort-down"></i></a>
                       <ul class="dropdown">
-                        <li><a href="#serv1" class="nav-link">Software a Medida</a></li>
-                        <li><a href="#serv2" class="nav-link">Sistema MES</a></li>
-                        <li><a href="#serv3" class="nav-link">ERP Calipso</a></li>
+                        <li><a href="#BtnServicios" class="nav-link">Software a Medida</a></li>
+                        <li><a href="#BtnMedida" class="nav-link">Sistema MES</a></li>
+                        <li><a href="#BtnMes" class="nav-link">ERP Calipso</a></li>
                       </ul>
                     </li>
-                    <li><a href="#exito" class="nav-link">Casos de Éxito</a></li>
-                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                    <li><a href="#BtnCalipso" class="nav-link">Casos de Éxito</a></li>
+                    <li><a href="#BtnExito" class="nav-link">Contacto</a></li>
                   </ul>
                 </div>
               </nav>
@@ -92,11 +92,11 @@
       </div>
     </div>
 
-    <div class="hero" style="background-image: url('imagenes/cerrar-hombre-escribiendo-codigo-computadora-portatil.jpg');"></div>
+    <div class="hero" style="background-image: url('imagenes/cerrar-hombre-escribiendo-codigo-computadora-portatil.jpg');" id="BtnBanner"></div>
     
     <!--SOBRE NOSOTROS-->
     <div class="titulosprincipales">
-        <h1 class="tit"><span>SOBRE NOSOTROS</span></h1>
+        <h1 class="tit" id="BtnNos"><span>SOBRE NOSOTROS</span></h1>
     </div>
     <div id="nosotros">
         <div class="reset"></div>
@@ -120,7 +120,7 @@
     
     <!--SERVICIOS-->
     <div class="titulosprincipales">
-        <h1 class="tit"><span>SERVICIOS</span></h1>
+        <h1 class="tit" id="BtnServicios"><span>SERVICIOS</span></h1>
         
     </div>
 
@@ -162,9 +162,10 @@
 
         </div>
 
-        <div class="boton">
-            <button type="button" class="btn btn-outline-secondary">SOLICITAR SOFTWARE A MEDIDA</button>
+        <div class="boton" id="BtnMedida">
+            <a href="#BtnExito"><button type="button" class="btn btn-outline-secondary">SOLICITAR SOFTWARE A MEDIDA</button></a>
         </div>
+
         <div id="serv2">
             <h3>SISTEMA MES</h3>
             <p>Un <b>Sistema MES</b> <em><b>(Manufacturing Execution System en inglés)</b></em> es un software enfocado al Control 
@@ -238,8 +239,8 @@
                     </div>
                 </div>
         </div>
-        <div class="boton">
-            <button type="button" class="btn btn-outline-secondary">SOLICITAR SISTEMA MES</button>
+        <div class="boton" id="BtnMes">
+            <a href="#BtnExito"><button type="button" class="btn btn-outline-secondary">SOLICITAR SISTEMA MES</button></a>
         </div>
         <div id="serv3">
             <h3><a href="https://www.calipso.com/" target="_blank" ><img src="imagenes/calipso-logo.svg"/>ERP CALIPSO CORPORATE</a></h3>
@@ -263,8 +264,8 @@
                 </div>
             </div>
         </div>
-        <div class="boton">
-            <button type="button" class="btn btn-outline-secondary">SOLICITAR ERP CALIPSO</button>
+        <div class="boton" id="BtnCalipso">
+            <a href="#BtnExito"><button type="button" class="btn btn-outline-secondary">SOLICITAR ERP CALIPSO</button></a>
         </div>
     </div>
    
@@ -324,7 +325,7 @@
                 <div class="empresa">
                     <a href="https://vmc.com.ar/" target="_blank"><img src="imagenes/clientes/vmc.png" /></a>
                 </div>
-                <div class="empresa">
+                <div class="empresa" id="BtnExito">
                    <a href="https://frioraf.com/" target="_blank"><img src="imagenes/clientes/frio-raf.png" /></a>
                 </div>
         </div>

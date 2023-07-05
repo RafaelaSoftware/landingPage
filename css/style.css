@@ -666,11 +666,16 @@ a {
 #exito .empresa img {
     width: 250px;
 }
+#exito .alto img{
+   height: 150px;
+   width: auto;
+}
+
 #exito .empresa:hover {
     opacity:1;
     filter: grayscale(0%);
 }
-.esp{
+.esp img{
     background-color: grey;
 }
 

@@ -822,3 +822,10 @@ div.reset {
     font-size: 26px;
   }
 }
+
+footer table{
+  padding: 10px;
+}
+footer table td{
+  width: 20%;
+}

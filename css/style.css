@@ -823,7 +823,6 @@ footer a{
 }
 .para-block{
   display: inline-block;
-  padding:20px;
   width: 35%;
 }
 
@@ -860,8 +859,28 @@ footer a{
   .img_p img{
     width: 100%;
   }
+  #imp-footer{
+    display: block;
+  }
  .para-block{
-    width: : 85%;
+    display: block;
+    width: 100%;
+    padding-top: 4px;
+  }
+  footer{
+    padding:10px;
+  }
+  .icono-footer{
+    width: 26px;
+    height: 26px;
+  }
+  .icono-footer img{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+  }
+  .text-icono{
+    padding-top:4px;
   }
 }
 
@@ -882,5 +901,4 @@ footer a{
     font-size: 26px;
   }
 }
-
 
